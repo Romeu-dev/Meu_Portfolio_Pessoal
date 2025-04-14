@@ -6,11 +6,11 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('ativo');
     navMenu.classList.toggle('ativo');
 
-    // Impede o scroll quando o menu está aberto
+    
     if (navMenu.classList.contains('ativo')) {
         document.body.style.overflow = 'hidden';
     } else {
-        document.body.style.overflow = ''; // Restaura o scroll
+        document.body.style.overflow = ''; 
     }
 });
 

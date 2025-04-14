@@ -248,6 +248,9 @@ body {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+.habilidades img {
+  width: 30px;
+}
 
 .tag-habilidades {
   font-size: 14px;
@@ -256,7 +259,7 @@ body {
   margin-bottom: 10px;
   border-radius: 5px;
   color: black;
-  background-color: rgba(113, 238, 111, 0.5);
+  /* background-color: rgba(113, 238, 111, 0.5); */
 }
 
 .botoes-contatos {

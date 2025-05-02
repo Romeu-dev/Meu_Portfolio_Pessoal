@@ -188,6 +188,7 @@ body {
 .img-principal img {
   width: 400px;
   border-radius: 30%;
+  color: #00ff00;
 }
 
 .card-projeto {
@@ -455,6 +456,7 @@ img {
     margin: 16px 0;
   }
 }
+
 .whats {
   bottom: 15px;
   right: 15px;

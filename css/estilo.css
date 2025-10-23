@@ -208,6 +208,10 @@ body {
 .info-projeto p {
   color: #bbb;
   margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .info-projeto a {
